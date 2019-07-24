@@ -12,3 +12,8 @@ balancedBrackets('[({}}]');   // should return false
 ```
 
 Analyze the time and space complexity of your solution.
+
+- takes in a string, iterable right?
+- nesting is valid if
+    - there are an equal number of opening and closing brackets
+    - if an opening bracket of one type  then there must be an opening and closing bracket prior to the closing bracket
